@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@8af0edd/css/all.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      p,
+      span {
+        font-family: "Montserrat", sans-serif;
+      }
+      .divider {
+        display: block;
+        margin: 20px 0;
+        text-align: center;
+        min-height: 20px;
+        position: relative;
+      }
+      .divider::before {
+        border-top: 2px solid #555;
+        content: "";
+        height: 0;
+        left: 0;
+        margin-right: 25px;
+        position: absolute;
+        right: 50%;
+        top: 13px;
+      }
+      .divider::after {
+        border-top: 2px solid #555;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 13px;
+        left: 50%;
+        margin-left: 25px;
+        right: 0;
+      }
+      .hide {
+          opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <section
+      class="h-screen w-full bg-no-repeat bg-cover"
+      style="background-image: url('./images/hero_banner.png')"
+    >
+      <div
+        class="flex flex-col items-center justify-center h-screen md:w-auto w-full"
+      >
+        <span class="text-white font-bold text-2xl hide">Food app</span>
+        <span class="font-bold text-5xl text-white md:text-left text-center"
+          >Why stay hungry when</span
+        >
+        <span class="font-bold text-5xl text-white md:text-left text-center"
+          >you can order from Bella Onojie</span
+        >
+        <span class="text-white pt-10 text-xl md:text-left text-center"
+          >Download the bella onoje's food app now on</span
+        >
+        <div
+          class="w-full text-white flex flex-row justify-center gap-5 pt-10 font-bold"
+        >
+          <a
+            style="background-color: #fa4a0c"
+            class="md:px-16 px-8 py-5 rounded-full"
+            href="#"
+            >Play Store</a
+          >
+          <a
+            class="md:px-16 px-8 py-5 border-2 border-white rounded-full hover:bg-mainOrange hover:border-mainOrange transition-all ease-in-out duration-500"
+            href="#"
+            >App Store</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="w-full flex flex-col items-center">
+      <div class="md:flex flex-row justify-center hidden">
+        <img class="animate__animated animate__slideInLeft" style="margin-top: -36%" src="./images/phone_left.png" />
+        <img
+        class="animate__animated animate__slideInRight"
+          style="margin-left: -22%; margin-top: -16%"
+          width="36%"
+          height="30%"
+          src="./images/phone_right.png"
+        />
+      </div>
+      <div class="container">
+        <div class="divider divider-center">
+            <i class="far fa-utensils-alt"></i>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>How the app works</div>
+    </section>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+</html>
