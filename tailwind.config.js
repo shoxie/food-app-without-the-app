@@ -19,6 +19,8 @@ module.exports = {
     },
     colors: {
       mainOrange: "#fa4a0c",
+      mainBlack: "#252B42",
+      mainGray:"#737373",
       transparent: "transparent",
       current: "currentColor",
       black: "#000",
@@ -241,6 +243,7 @@ module.exports = {
     },
     fontFamily: {
       montserrat: ["Montserrat", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
       sans: [
         "system-ui",
         "-apple-system",
