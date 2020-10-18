@@ -289,6 +289,13 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript">
     const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "box",
+        start: "top center",
+        end: "bottom top",
+        markers: false,
+        toggleActions: "play none none reverse",
+      },
       default: { ease: "power1.out" },
     });
 
