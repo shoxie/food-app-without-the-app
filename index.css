@@ -38,6 +38,9 @@ h1 {
   transform: translateY(100%);
   display: inline-block;
 }
+.hide span {
+  transform: translateX(100%);
+}
 .icon {
   width: 30px;
 }

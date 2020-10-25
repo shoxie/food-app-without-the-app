@@ -21,6 +21,7 @@ module.exports = {
       mainOrange: "#fa4a0c",
       mainBlack: "#252B42",
       mainGray:"#737373",
+      mainPink:"#F79199",
       transparent: "transparent",
       current: "currentColor",
       black: "#000",

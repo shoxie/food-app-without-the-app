@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="fullpage/fullpage.min.css" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="fullPage">
+      <div class="section bg-opacity-75" style="background-color: #f6d3e6">
+        <div class="flex flex-col justify-end h-full items-center gap-24">
+          <div class="flex flex-col items-center">
+            <span class="text-6xl font-bold">Order delicious foods</span>
+            <span class="text-3xl">bella Onojie mobile app</span>
+            <span class="text-2xl text-gray-700">UI UX | 2020</span>
+          </div>
+          <div class="flex flex-row gap-0">
+            <img src="./images/phone1.png" />
+            <img src="./images/phone2.png" />
+            <img src="./images/phone3.png" />
+            <img src="./images/phone4.png" />
+          </div>
+        </div>
+      </div>
+      <div class="section">1</div>
+      <div class="section">1</div>
+      <div class="section">1</div>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"
+    integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.extensions.min.js"
+    integrity="sha512-pci5WG2+7QnpsinWWpGUd3RgI61fU1bWlQQQegC2mVqwOQC/+Xp0ROGO0AYB6dvoLBYRxwm+t+DWOVRkxmlcdQ=="
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript">
+    new fullpage("#fullPage", {
+      autoScrolling: true,
+      scrollHorizontally: true,
+      navigation: true,
+      anchors: [
+        "Home",
+        "Overview",
+        "Cotagion",
+        "Symptomps",
+        "Preventions",
+        "Contact",
+      ],
+    });
+  </script>
+</html>
