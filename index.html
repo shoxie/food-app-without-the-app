@@ -100,7 +100,7 @@
       <div class="flex flex-row gap-10 items-center justify-center">
         <div>
           <img
-            class="animate__animated animate__fadeInLeft animate__delay-2s"
+            class="image"
             src="./images/hero_phone1.png"
           />
         </div>
@@ -162,7 +162,7 @@
         </div>
         <div>
           <img
-            class="animate__animated animate__fadeInRight animate__delay-4s"
+            class="image"
             src="./images/hero_phone2.png"
           />
         </div>
@@ -170,7 +170,7 @@
       <div class="flex flex-row gap-10 items-center justify-between">
         <div>
           <img
-            class="animate__animated animate__fadeInLeft animate__delay-5s"
+            class="image"
             src="./images/hero_phone3.png"
           />
         </div>
@@ -308,6 +308,15 @@
         toggleActions: "play play none reverse",
       },
       y: "0%",
+      duration: 1,
+      stagger: 0.3,
+    });
+    gsap.to(".image", {
+      scrollTrigger: {
+        trigger: ".image",
+        toggleActions: "play play none reverse",
+      },
+      opacity: "1",
       duration: 1,
       stagger: 0.3,
     });
