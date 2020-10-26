@@ -38,6 +38,14 @@ h1 {
   transform: translateY(100%);
   display: inline-block;
 }
+.hide1 {
+  background: black;
+  overflow: hidden;
+}
+.hide1 span {
+  transform: translateY(100%);
+  display: inline-block;
+}
 .image {
   opacity: 0;
 }
@@ -52,7 +60,7 @@ h1 {
 .icon.facebook path {
   stroke-dasharray: 2799;
   stroke-dashoffset: 2799;
-  animation: animate-facebook 3s infinite; 
+  animation: animate-facebook 5s infinite; 
 }
  @keyframes animate-facebook {
   0% {
@@ -73,7 +81,7 @@ h1 {
 .icon.twitter path {
   stroke-dasharray: 2162;
   stroke-dashoffset: 2162;
-  animation: animate-twitter 3s infinite; 
+  animation: animate-twitter 5s infinite; 
 }
  @keyframes animate-twitter {
   0% {
@@ -94,7 +102,7 @@ h1 {
 .icon.instagram path {
   stroke-dasharray: 4734;
   stroke-dashoffset: 4734;
-  animation: animate-instagram 3s infinite; 
+  animation: animate-instagram 5s infinite; 
 }
  @keyframes animate-instagram {
   0% {
